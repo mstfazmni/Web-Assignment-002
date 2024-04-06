@@ -17,7 +17,7 @@ function showConfirm() {
     };
 
     // Send form data to backend
-    fetch('https://webassignment002.netlify.app/register', {
+    fetch('/register', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
