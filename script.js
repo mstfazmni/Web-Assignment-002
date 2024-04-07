@@ -19,7 +19,7 @@ function showConfirm() {
     // Send form data to backend
     fetch('https://rainbow-cascaron-8dd939.netlify.app/register', {
         method: 'POST',
-        mode: 'no-cors',
+        //mode: 'no-cors',
         headers: {
             'Content-Type': 'application/json',
         },
