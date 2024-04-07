@@ -16,6 +16,8 @@ function showConfirm() {
         status: statusVal
     };
 
+    console.log(formData);
+
     // Send form data to backend
     fetch('https://genuine-cupcake-1af9de.netlify.app/.netlify/functions/app/register', {
         method: 'POST',
