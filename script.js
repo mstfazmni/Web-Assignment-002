@@ -38,7 +38,7 @@ function showConfirm() {
         // Hide the form after showing confirmation
         document.querySelector('.form-section').style.display = 'none';
     })
-    .catch(error => console.error('Error:', error));
+    //.catch(error => console.error('Error:', error));
 
     // Clear input fields
     document.getElementById("first-name").value = "";
