@@ -30,7 +30,11 @@ function showConfirm() {
         // Display confirmation message based on response
         const confirmDiv = document.getElementById("confirmation-div");
         confirmDiv.style.display = 'block';
-        confirmDiv.innerHTML = `<b>Fee:</b> ${data.fee}$`;
+        confirmDiv.innerHTML = `<b>User:</b> ${data.firstName} ${data.lastName} <br>
+                                <b>ID:</b> ${data.userId} <br>
+                                <b>Status:</b> ${data.status} <br>
+                                <b>Address:</b> ${data.address} <br>
+                                <b>Fee:</b> ${data.fee}$`;
         // Hide the form after showing confirmation
         document.querySelector('.form-section').style.display = 'none';
     })
