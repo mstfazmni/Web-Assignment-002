@@ -1,4 +1,5 @@
-function showConfirm() {
+function showConfirm(event) {
+    event.preventDefault(); 
     // Get form data
     const firstName = document.getElementById("first-name").value;
     const lastName = document.getElementById("last-name").value;
