@@ -21,7 +21,7 @@ function showConfirm() {
     // Send form data to backend
     fetch('https://genuine-cupcake-1af9de.netlify.app/.netlify/functions/app/register', {
         method: 'POST',
-        mode: 'no-cors',
+        // mode: 'no-cors',
         headers: {
             'Content-Type': 'application/json',
         },
